@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:ehri="http://ehri01.dans.knaw.nl/terms/ehri-skos-ext#"
+>
+
+<owl:Ontology> rdf:about=""http://ehri01.dans.knaw.nl/terms/ehri-skos-ext#"</owl:Ontology>
+
+<!-- Definition of ehri:prefMaleLabel -->
+<rdf:Property rdf:about="http://ehri01.dans.knaw.nl/terms/ehri-skos-ext#prefMaleLabel">
+<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core#"></rdfs:isDefinedBy>
+<rdfs:label xml:lang="en">preferred Male Label </rdfs:label>
+<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"></rdfs:subPropertyOf>
+<skos:difinition xml:lang="en">The preferred Male label for the term, in the languages which thesaurus terms are in singular, and a different term is used for singular male"</skos:difinition>
+<rdfs:comment xml:lang="en">No two concepts in the same concept scheme may have the same value for skos:prefMaleLabel.</rdfs:comment>
+<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+
+
+
+
+
+
+</rdf:RDF>
